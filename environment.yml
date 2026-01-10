@@ -1,0 +1,18 @@
+name: lateral_TOC_modeling
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.10,<3.12
+  - numpy>=1.26,<2
+  - pandas>=2.2
+  - xarray>=2025.1
+  - matplotlib>=3.10
+  - seaborn>=0.13
+  - scipy>=1.15
+  - cartopy>=0.24
+  - jupyter>=1.0.0
+  - ipykernel
+  - pip
+  - pip:
+      - ultraplot>=1.10
